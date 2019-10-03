@@ -1,6 +1,6 @@
 # Add code here!
 def prime?(integer)
-  if integer <= 0 
+  if integer <= 1 
     return false
   end
   numbers = (2..(integer - 1)).to_a  
