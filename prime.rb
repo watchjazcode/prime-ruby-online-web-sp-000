@@ -1,7 +1,7 @@
 # Add code here!
 def prime?(integer)
   numbers = (2..(integer - 1)).to_a  
-  integer % numbers != 0
+
   
   numbers.each do |number|
     
