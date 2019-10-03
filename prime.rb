@@ -6,5 +6,6 @@ def prime?(integer)
       return false
     end 
   end
-  return true
+  return true 
+  #if we don't put this line, it'll return the array
 end
