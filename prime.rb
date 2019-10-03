@@ -1,5 +1,8 @@
 # Add code here!
 def prime?(integer)
+  if integer < 0 
+    return false
+  end
   numbers = (2..(integer - 1)).to_a  
   numbers.each do |number|
     if integer % number == 0
