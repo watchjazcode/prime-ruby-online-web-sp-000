@@ -1,7 +1,7 @@
 # Add code here!
-def prime(integer)
+def prime?(integer)
   number = (2..(integer - 1).to_a
-  if number %  !== 0
+  if 
     return true
   end
 end
