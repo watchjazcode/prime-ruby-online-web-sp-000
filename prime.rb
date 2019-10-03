@@ -3,8 +3,8 @@ def prime?(integer)
   numbers = (2..(integer - 1)).to_a  
   integer % numbers == 0
   
-  lunch_menu.each do |lunch_item|
-  lunch_item << "!"
+  numbers do |integer|
+  
 end
   
   
