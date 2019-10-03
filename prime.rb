@@ -1,6 +1,7 @@
 # Add code here!
 def prime?(integer)
-  numbers = (2..(integer - 1)).to_a
+  numbers = (2..(integer - 1)).to_a  
+  7 % 2 =
   if 
     return true
   end
